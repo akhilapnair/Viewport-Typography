@@ -1,20 +1,27 @@
 <html>
     <head>
         <style>
-            html {
-                    font-size: 16px;
-
-                    @media (min-width: 600px) {
-                        font-size: 22px;
-                    }
-
-                    @media (min-width: 800px) {
-                        font-size: 33px;
-                    }
-                }
-        </style>
+     p {
+            font-size: 22px;
+        }
+    @media (min-width:576px) {
+      p {
+        font-size: 24px;
+      }
+    }
+    @media (min-width:768px) {
+      p {
+        font-size: 27px;
+      }
+    }
+    @media (min-width:992px) {
+      p {
+        font-size: 34px;
+      }
+    }     </style>
     </head>
     <body>
-    Viewport, in this case, refers to the browser screen. 1vw would mean one percent of the browserâ€™s width. 100vw would mean the full browser width. 
+        <p>Viewport, in this case, refers to the browser screen. 1vw would mean one percent of the browserâ€™s width. 100vw would mean the full browser width. </p>
+    
     </body>
 </html>
